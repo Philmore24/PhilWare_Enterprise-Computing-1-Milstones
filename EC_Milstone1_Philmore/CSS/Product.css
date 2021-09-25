@@ -1,0 +1,130 @@
+﻿@import url('../Content/bootstrap.min.css');
+@import url('Style.css');
+
+.aboutheader {
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 20rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 20px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    align-self: normal;
+}
+
+    .card img {
+        max-width: 210px;
+        text-align: center;
+    }
+
+    .card h4 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+
+    .card p {
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+p.category {
+    color: cornflowerblue;
+    font-family: Constantia;
+    font-size: 20px;
+}
+
+h3.ProductName {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h3.ProductDescription {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+h3.ProductPrice {
+    text-align: center;
+    color: tomato;
+}
+
+
+
+/* Button design*/
+
+
+
+.purchasebutton {
+    background: forestgreen;
+    background-color: forestgreen;
+    border-radius: 6px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    padding: 4px 4px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+    .purchasebutton:hover {
+        background: rgba(0,0,0,0.4);
+        background-color: #378de5;
+    }
+
+    .purchasebutton:active {
+        position: center;
+        top: 1px;
+    }
+
+button.purchasebutton {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button.purchasebutton {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

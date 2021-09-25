@@ -1,0 +1,29 @@
+﻿
+
+h2.aboutcontact {
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h2.contactheader {
+    color: deepskyblue;
+}
+
+.contactform {
+    margin: auto;
+    text-align: center;
+}
+
+    .contactform p {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    .contactform h2 {
+        color: deepskyblue;
+        font-weight: bold;
+        font-size: 24px;
+    }
