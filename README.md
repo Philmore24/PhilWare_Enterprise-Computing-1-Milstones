@@ -1,4 +1,4 @@
-# EC_Milstone1_Philmore
+# EC_Milstones_Philmore
 EC 1 Milstone Project Philmore Foster
 1701497
 
