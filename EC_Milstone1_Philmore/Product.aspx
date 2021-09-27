@@ -86,7 +86,7 @@
                 <h3 class="ProductName">SAMSUNG UHD 75 </h3>
                 <h3 class="ProductPrice">JMD $186,000.00</h3>
                 <button class="purchasebutton" type="button" onclick="alert('Not yet available will soon')">PURCHASE</button>
-
+                <asp:Button ID="Button1" runat="server" Text="Purchase" CssClass="purchasebutton" OnClick="Button1_Click" />
                 <p>Product ID : SU1006 </p>
                 <h3 class="ProductDescription">Description :</h3>
                 <p>The best tv on market good display </p>
