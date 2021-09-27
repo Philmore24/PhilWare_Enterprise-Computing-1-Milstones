@@ -64,6 +64,12 @@
 
                         <li><a href="Contact.aspx">Contact Us</a> </li>
 
+                        <li><a href="Registration.aspx">Register </a></li>
+
+                        <li><a href="#">CART </a></li>
+
+
+
                     </ul>
 
                 </nav>

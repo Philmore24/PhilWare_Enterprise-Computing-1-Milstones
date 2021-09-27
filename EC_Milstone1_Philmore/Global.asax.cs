@@ -16,6 +16,10 @@ namespace EC_Milstone1_Philmore
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+
+            // intialize the variable for user count
+            Application["UserCount"] = 0;
         }
     }
 }
